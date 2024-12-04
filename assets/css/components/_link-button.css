@@ -1,0 +1,46 @@
+a.link-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+a.link-button .icon{
+  width: 32px;
+  height: 32px;
+  padding: 3px;
+  background-color: var(--primary-color);
+  border: solid 1px white;
+  background-clip: content-box;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.link-button .icon .play-icon{
+  border:solid 7px white;
+  width:0;
+  height: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  margin-right: -7px;
+}
+
+
+
+a.link-button .label{
+  margin-left: 10px;
+}
+
+.s-links ul li a:hover{
+  margin-left: 23px;
+  border: 2px gray solid;
+  border-radius: 15px;
+  padding: 10px 20px ;
+  transform: scale(1.2);
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.9);
+}
